@@ -132,7 +132,7 @@ local function set_highlights()
 		Float = { fg = palette.gold },
 		Function = { fg = palette.rose },
 		Identifier = { fg = palette.text },
-		Include = { fg = palette.pine },
+		Include = { fg = palette.iris },
 		Keyword = { fg = palette.pine },
 		Label = { fg = palette.foam },
 		LspCodeLens = { fg = palette.subtle },
