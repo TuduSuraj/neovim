@@ -121,7 +121,7 @@ local function set_highlights()
 
 		Boolean = { fg = palette.rose },
 		Character = { fg = palette.gold },
-		Comment = { fg = palette.subtle, italic = styles.italic },
+		Comment = { fg = palette.subtle },
 		Conditional = { fg = palette.pine },
 		Constant = { fg = palette.gold },
 		Debug = { fg = palette.rose },
