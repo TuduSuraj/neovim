@@ -247,7 +247,7 @@ local function set_highlights()
 		["@operator"] = { link = "Operator" },
 		["@parameter"] = { fg = palette.iris},
 		["@preproc"] = { link = "PreProc" },
-		["@property"] = { fg = palette.foam, italic = styles.italic },
+		["@property"] = { fg = palette.foam},
 		["@punctuation"] = { fg = palette.subtle },
 		["@punctuation.bracket"] = { link = "@punctuation" },
 		["@punctuation.delimiter"] = { link = "@punctuation" },
@@ -291,7 +291,7 @@ local function set_highlights()
 		["@text.warning"] = { fg = groups.warn },
 		["@todo"] = { link = "Todo" },
 		["@type"] = { link = "Type" },
-		["@variable"] = { fg = palette.text, italic = styles.italic },
+		["@variable"] = { fg = palette.text },
 		["@variable.builtin"] = { fg = palette.love },
 
 		-- romgrk/barbar.nvim
