@@ -245,7 +245,7 @@ local function set_highlights()
 		["@namespace"] = { link = "Include" },
 		["@number"] = { link = "Number" },
 		["@operator"] = { link = "Operator" },
-		["@parameter"] = { fg = palette.iris},
+		["@parameter"] = { fg = palette.text},
 		["@preproc"] = { link = "PreProc" },
 		["@property"] = { fg = palette.foam},
 		["@punctuation"] = { fg = palette.subtle },
