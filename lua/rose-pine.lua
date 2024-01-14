@@ -232,7 +232,7 @@ local function set_highlights()
 		["@lsp.type.interface"] = { link = "@interface" },
 		["@lsp.type.keyword"] = { link = "Keyword" },
 		["@lsp.type.namespace"] = { link = "@namespace" },
-		["@lsp.type.parameter"] = { link = "@parameter" },
+		["@lsp.type.parameter"] = { link = "@parameter", bold = styles.bold },
 		["@lsp.type.property"] = { link = "@property" },
 		["@lsp.type.variable"] = {},
 		["@lsp.typemod.function.defaultLibrary"] = { link = "Special" },
